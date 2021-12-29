@@ -1,0 +1,230 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#scenario 1"
+          }
+        ],
+        "line": 5,
+        "name": "User should be able tap on search icon",
+        "description": "",
+        "id": "today-app-search-functionality;user-should-be-able-tap-on-search-icon",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15233804267,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify The app is opened",
+            "match": {
+              "location": "HomePageStepDefs.verify_the_app_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4952948579,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on search icon",
+            "match": {
+              "location": "SearchPageStepDefinitions.i_click_on_search_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2090979181,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the placeholder of search bar",
+            "match": {
+              "location": "SearchPageStepDefinitions.i_verify_the_placeholder_of_searchbar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 134248004,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click close",
+            "match": {
+              "location": "SearchPageStepDefinitions.i_click_close()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Today App Search functionality",
+    "description": "",
+    "id": "today-app-search-functionality",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 11,
+            "value": "#scenario 2"
+          }
+        ],
+        "line": 13,
+        "name": "Open app and access homepage and assert that Top News section is displayed.",
+        "description": "",
+        "id": "today-app-home-feature;open-app-and-access-homepage-and-assert-that-top-news-section-is-displayed.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15000181436,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify The app is opened",
+            "match": {
+              "location": "HomePageStepDefs.verify_the_app_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2211273256,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify the home page is displayed",
+            "match": {
+              "location": "HomePageStepDefs.verify_the_home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 17,
+            "value": "#Then Verify Top News section is displayed"
+          },
+          {
+            "line": 20,
+            "value": "#scenario 3"
+          }
+        ],
+        "line": 22,
+        "name": "Open app and access homepage and assert that Share button in HomePage is functional",
+        "description": "",
+        "id": "today-app-home-feature;open-app-and-access-homepage-and-assert-that-share-button-in-homepage-is-functional",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15004715377,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify The app is opened",
+            "match": {
+              "location": "HomePageStepDefs.verify_the_app_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9801110566,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Navigate to news article",
+            "match": {
+              "location": "HomePageStepDefs.navigate_to_news_article()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4291986210,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on three tripel dots",
+            "match": {
+              "location": "HomePageStepDefs.click_three_triple_dots()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3600888761,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 27,
+                "value": "#Then Verify share button is displayed"
+              }
+            ],
+            "line": 28,
+            "name": "click on share button",
+            "match": {
+              "location": "HomePageStepDefs.click_on_share_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5426902523,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify share button is functional",
+            "match": {
+              "location": "HomePageStepDefs.verify_share_button_is_functional()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Today App Home Feature",
+    "description": "",
+    "id": "today-app-home-feature",
+    "keyword": "Feature",
+    "uri": "TodayHome.feature"
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="77.749038">
+<testcase classname="Today App Search functionality" name="User should be able tap on search icon" time="22.41198">
+<system-out><![CDATA[When Verify The app is opened...............................................passed
+Then I click on search icon.................................................passed
+Then I verify the placeholder of search bar.................................passed
+Then I click close..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Today App Home Feature" name="Open app and access homepage and assert that Top News section is displayed." time="17.211455">
+<system-out><![CDATA[When Verify The app is opened...............................................passed
+Then Verify the home page is displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Today App Home Feature" name="Open app and access homepage and assert that Share button in HomePage is functional" time="38.125603">
+<system-out><![CDATA[When Verify The app is opened...............................................passed
+Then Navigate to news article...............................................passed
+And click on three tripel dots..............................................passed
+And click on share button...................................................passed
+Then Verify share button is functional......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
