@@ -16,6 +16,7 @@ import com.todayapp.base.DriverFactory;
 import cucumber.api.CucumberOptions;
 //import io.cucumber.java.After;
 import cucumber.api.Scenario;
+import cucumber.api.java.Before;
 //import io.cucumber.java.Scenario;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
@@ -55,12 +56,7 @@ public class SmokeRunner extends AbstractTestNGCucumberTests {
 		scenario.embed(getByteScreenshot(), "image/png");
 	}
 
-	@BeforeClass
-	public void launchApp() throws MalformedURLException, IOException {
-		factory = new DriverFactory();
-		factory.launchApp();
-	}
-
+	
 	// @After
 	public void addScreenshot(Scenario scenario) {
 

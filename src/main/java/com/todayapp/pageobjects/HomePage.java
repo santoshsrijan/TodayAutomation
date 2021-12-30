@@ -4,6 +4,7 @@ import java.sql.Driver;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -65,10 +66,10 @@ public class HomePage extends DriverFactory {
 			.xpath("(//android.widget.TextView[@resource-id='com.sg.mc.android.itoday:id/tv_title'])[1]");
 	public By threedots_button = By
 			.xpath("(//android.widget.ImageView[@resource-id='com.sg.mc.android.itoday:id/iv_options'])[1]");
-	public By share_button = By.xpath("//android.widget.TextView[@text='Share']");
+	public By share_button = By.xpath("//android.widget.TextView[@resource-id='com.sg.mc.android.itoday:id/tv_share']");
 	public By textShare = By.xpath("//android.widget.TextView[@text='Share']");
 
-	public By minuteButton = By.xpath("//android.widget.TextView[@text='MINUTE']");
+	public By minuteButton = By.xpath("//android.widget.TextView[@respurce-id='MINUTE']");
 	public By minuteHighlightedText = By.xpath("//android.widget.TextView[@text='MINUTE' and @selected = 'true']");
 	public By searchButton = By
 			.xpath("//android.widget.ImageView[@resource-id='com.channelnewsasia.mcbeta:id/iv_search']");
@@ -167,11 +168,11 @@ public class HomePage extends DriverFactory {
 
 	public void clickShareButton() throws InterruptedException {
 
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 
 		try {
 			driver.findElement(share_button).click();
-		}catch(Exception e) {
+		}catch(NoSuchElementException e) {
 			driver.findElement(share_button).click();
 		}
 

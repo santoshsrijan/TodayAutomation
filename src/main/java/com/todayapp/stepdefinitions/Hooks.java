@@ -5,6 +5,7 @@ import java.io.File;
 
 
 import java.io.IOException;
+import java.net.MalformedURLException;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -15,12 +16,26 @@ import com.todayapp.base.DriverFactory;
 
 
 import cucumber.api.Scenario;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 public class Hooks extends DriverFactory {
 
 	// @Before
 	public void beforeScenario(Scenario scenario) {
 		Reporter.assignAuthor("TodayApp - Santosh");
 	}
+	
+	@After
+	public void AfterScenario() {
+		driver.quit();
+	}
+	
+	@Before
+	public void launchApp() throws MalformedURLException, IOException {
+		DriverFactory factory = new DriverFactory();
+		factory.launchApp();
+	}
+
 	
 	
 	

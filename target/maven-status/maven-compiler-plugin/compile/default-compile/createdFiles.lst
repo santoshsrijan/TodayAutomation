@@ -1,4 +1,6 @@
 com/todayapp/stepdefinitions/HomePageStepDefs.class
+com/todayapp/pageobjects/ArticleLandingPage.class
+com/todayapp/stepdefinitions/ArticleLandingPageStepDefinitions.class
 com/todayapp/stepdefinitions/sample.class
 com/todayapp/stepdefinitions/SearchPageStepDefinitions.class
 com/todayapp/utilities/Platforms.class
@@ -8,6 +10,8 @@ com/todayapp/base/DriverFactory.class
 com/todayapp/pageobjects/AndroidLoginPage.class
 com/todayapp/utilities/ThreadLocalDriver.class
 com/todayapp/utilities/ExtentManager.class
+com/todayapp/pageobjects/WatchPage.class
+com/todayapp/stepdefinitions/WatchStepDefinitions.class
 com/todayapp/pageobjects/IOSLoginPage.class
 com/todayapp/pageobjects/SearchPage.class
 com/todayapp/stepdefinitions/Hooks.class

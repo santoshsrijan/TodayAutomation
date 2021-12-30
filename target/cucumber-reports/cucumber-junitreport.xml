@@ -1,22 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="77.749038">
-<testcase classname="Today App Search functionality" name="User should be able tap on search icon" time="22.41198">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="212.516152">
+<testcase classname="Article Landing Page" name="Open app and access homepage and access one of article detail and assert that nav bar is displayed" time="39.294318">
+<system-out><![CDATA[When Verify The app is opened...............................................passed
+And user opens the article..................................................passed
+Then user should see the nav bar on top of the page.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Today App Search functionality" name="User should be able tap on search icon" time="40.217738">
 <system-out><![CDATA[When Verify The app is opened...............................................passed
 Then I click on search icon.................................................passed
 Then I verify the placeholder of search bar.................................passed
 Then I click close..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Today App Home Feature" name="Open app and access homepage and assert that Top News section is displayed." time="17.211455">
+<testcase classname="Today App Home Feature" name="Open app and access homepage and assert that Top News section is displayed." time="36.646323">
 <system-out><![CDATA[When Verify The app is opened...............................................passed
 Then Verify the home page is displayed......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Today App Home Feature" name="Open app and access homepage and assert that Share button in HomePage is functional" time="38.125603">
+<testcase classname="Today App Home Feature" name="Open app and access homepage and assert that Share button in HomePage is functional" time="49.465529">
 <system-out><![CDATA[When Verify The app is opened...............................................passed
 Then Navigate to news article...............................................passed
 And click on three tripel dots..............................................passed
-And click on share button...................................................passed
-Then Verify share button is functional......................................passed
+Then Verify share button is displayed.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Watch feature" name="Verify that when a user access Watch menu, then watch landing screen will be displayed" time="46.892244">
+<system-out><![CDATA[When Verify The app is opened...............................................passed
+When user click the menu on homepage........................................passed
+And user click the watch button.............................................passed
+Then Verify that watch landing screen is displayed..........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

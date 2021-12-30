@@ -24,9 +24,9 @@ Scenario: User should be able to see the minute menu is highlighted
 	When Verify The app is opened
 	Then Navigate to news article
 	And click on three tripel dots
-	#Then Verify share button is displayed
-	And click on share button
-	Then Verify share button is functional
+	Then Verify share button is displayed
+	#And click on share button
+	#Then Verify share button is functional
 	
 	
 	#scenario 1

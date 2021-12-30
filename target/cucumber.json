@@ -3,22 +3,128 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 12148533983,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchApp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Open app and access homepage and access one of article detail and assert that nav bar is displayed",
+        "description": "",
+        "id": "article-landing-page;open-app-and-access-homepage-and-access-one-of-article-detail-and-assert-that-nav-bar-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 1153527248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15201830751,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify The app is opened",
+            "match": {
+              "location": "HomePageStepDefs.verify_the_app_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6750739396,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user opens the article",
+            "match": {
+              "location": "ArticleLandingPageStepDefinitions.user_opens_the_article()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4039686831,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see the nav bar on top of the page",
+            "match": {
+              "location": "ArticleLandingPageStepDefinitions.user_should_see_the_nav_bar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Article Landing Page",
+    "description": "",
+    "id": "article-landing-page",
+    "keyword": "Feature",
+    "uri": "ArticleLandingPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "comments": [
           {
             "line": 3,
             "value": "#scenario 1"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 17803704301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchApp()"
+            }
+          }
+        ],
         "line": 5,
         "name": "User should be able tap on search icon",
         "description": "",
         "id": "today-app-search-functionality;user-should-be-able-tap-on-search-icon",
+        "after": [
+          {
+            "result": {
+              "duration": 1112672925,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 15233804267,
+              "duration": 15004893421,
               "status": "passed"
             },
             "line": 7,
@@ -30,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 4952948579,
+              "duration": 4124965322,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 2090979181,
+              "duration": 2067709729,
               "status": "passed"
             },
             "line": 9,
@@ -54,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 134248004,
+              "duration": 103792618,
               "status": "passed"
             },
             "line": 10,
@@ -89,16 +195,38 @@
             "value": "#scenario 2"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 17895619165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchApp()"
+            }
+          }
+        ],
         "line": 13,
         "name": "Open app and access homepage and assert that Top News section is displayed.",
         "description": "",
         "id": "today-app-home-feature;open-app-and-access-homepage-and-assert-that-top-news-section-is-displayed.",
+        "after": [
+          {
+            "result": {
+              "duration": 1110795788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 15000181436,
+              "duration": 15001314157,
               "status": "passed"
             },
             "line": 15,
@@ -110,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 2211273256,
+              "duration": 2638594284,
               "status": "passed"
             },
             "line": 16,
@@ -139,16 +267,38 @@
             "value": "#scenario 3"
           }
         ],
+        "before": [
+          {
+            "result": {
+              "duration": 16653588206,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchApp()"
+            }
+          }
+        ],
         "line": 22,
         "name": "Open app and access homepage and assert that Share button in HomePage is functional",
         "description": "",
         "id": "today-app-home-feature;open-app-and-access-homepage-and-assert-that-share-button-in-homepage-is-functional",
+        "after": [
+          {
+            "result": {
+              "duration": 1258832197,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 15004715377,
+              "duration": 15002656270,
               "status": "passed"
             },
             "line": 24,
@@ -160,7 +310,7 @@
           },
           {
             "result": {
-              "duration": 9801110566,
+              "duration": 9756409094,
               "status": "passed"
             },
             "line": 25,
@@ -172,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 4291986210,
+              "duration": 4446752864,
               "status": "passed"
             },
             "line": 26,
@@ -184,31 +334,13 @@
           },
           {
             "result": {
-              "duration": 3600888761,
+              "duration": 2347290039,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 27,
-                "value": "#Then Verify share button is displayed"
-              }
-            ],
-            "line": 28,
-            "name": "click on share button",
+            "line": 27,
+            "name": "Verify share button is displayed",
             "match": {
-              "location": "HomePageStepDefs.click_on_share_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5426902523,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "Verify share button is functional",
-            "match": {
-              "location": "HomePageStepDefs.verify_share_button_is_functional()"
+              "location": "HomePageStepDefs.verif_share_button_is_displayed()"
             },
             "keyword": "Then "
           }
@@ -226,5 +358,101 @@
     "id": "today-app-home-feature",
     "keyword": "Feature",
     "uri": "TodayHome.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17303093033,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchApp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify that when a user access Watch menu, then watch landing screen will be displayed",
+        "description": "",
+        "id": "watch-feature;verify-that-when-a-user-access-watch-menu,-then-watch-landing-screen-will-be-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 1215005841,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15003792275,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify The app is opened",
+            "match": {
+              "location": "HomePageStepDefs.verify_the_app_is_opened()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6052957064,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click the menu on homepage",
+            "match": {
+              "location": "WatchStepDefinitions.user_click_the_menu_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5068317611,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click the watch button",
+            "match": {
+              "location": "WatchStepDefinitions.user_click_the_watch_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2249078533,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify that watch landing screen is displayed",
+            "match": {
+              "location": "WatchStepDefinitions.verify_that_watch_landing_screen_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Watch feature",
+    "description": "",
+    "id": "watch-feature",
+    "keyword": "Feature",
+    "uri": "Watch.feature"
   }
 ]

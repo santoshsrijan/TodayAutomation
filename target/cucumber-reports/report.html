@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Dec 29, 2021 03:42:00 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Dec 30, 2021 04:48:54 PM</span>
 				</a>
 			</li>
 			<li>
@@ -132,7 +132,7 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -147,7 +147,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -162,7 +162,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>11</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>17</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -181,8 +181,8 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Today App Search functionality</span>
-						<span class='test-time'>Dec 29, 2021 03:42:00 PM</span>
+						<span class='test-name'>Article Landing Page</span>
+						<span class='test-time'>Dec 30, 2021 04:48:55 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -190,10 +190,10 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@Smoke</span>
 	</div>
-	<span class='duration right label'>0h 0m 22s+459ms</span>
+	<span class='duration right label'>0h 0m 38s+184ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">User should be able tap on search icon</span>
+		<span class="desc-text">Open app and access homepage and access one of article detail and assert that nav bar is displayed</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node when pass' status='pass'>
@@ -204,11 +204,11 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='4' class='node then pass' status='pass'>
+		<li test-id='4' class='node and pass' status='pass'>
 			
-			<b>Then</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">Then I click on search icon</span>
+			<span class="bdd-step-name">And user opens the article</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -216,11 +216,62 @@
 			
 			<b>Then</b>
 			
+			<span class="bdd-step-name">Then user should see the nav bar on top of the page</span>
+			<ul class='screenshots right'>
+				<li><a data-featherlight="image" href="/Users/santosh.singh/Downloads/TodayAppIOSAutomation-master/target/cucumber-reports/screenshots/screenshot1640863172181.png"><i class='material-icons'>panorama</i></a></li>
+			</ul>
+				<div class='pre'>Failed to verify the element</div>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>Today App Search functionality</span>
+						<span class='test-time'>Dec 30, 2021 04:49:34 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='7' status='pass'>
+	<div class='category-list'>
+		<span class='category label white-text'>@Smoke</span>
+	</div>
+	<span class='duration right label'>0h 0m 39s+52ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">User should be able tap on search icon</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='8' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When Verify The app is opened</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='9' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then I click on search icon</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='10' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
 			<span class="bdd-step-name">Then I verify the placeholder of search bar</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='6' class='node then pass' status='pass'>
+		<li test-id='11' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
@@ -234,24 +285,24 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='7'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='12'>
 					<div class='test-heading'>
 						<span class='test-name'>Today App Home Feature</span>
-						<span class='test-time'>Dec 29, 2021 03:42:23 PM</span>
+						<span class='test-time'>Dec 30, 2021 04:50:14 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='8' status='pass'>
+<div class='scenario node' test-id='13' status='pass'>
 	<div class='category-list'>
 		<span class='category label white-text'>@Smoke</span>
 	</div>
-	<span class='duration right label'>0h 0m 17s+215ms</span>
+	<span class='duration right label'>0h 0m 35s+538ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Open app and access homepage and assert that Top News section is displayed.</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='9' class='node when pass' status='pass'>
+		<li test-id='14' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
@@ -259,7 +310,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='10' class='node then pass' status='pass'>
+		<li test-id='15' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
@@ -269,17 +320,17 @@
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='11' status='pass'>
+<div class='scenario node' test-id='16' status='pass'>
 	<div class='category-list'>
 		<span class='category label white-text'>@Smoke</span>
 	</div>
-	<span class='duration right label'>0h 0m 38s+134ms</span>
+	<span class='duration right label'>0h 0m 48s+217ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Open app and access homepage and assert that Share button in HomePage is functional</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='12' class='node when pass' status='pass'>
+		<li test-id='17' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
@@ -287,7 +338,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='13' class='node then pass' status='pass'>
+		<li test-id='18' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
@@ -295,7 +346,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='14' class='node and pass' status='pass'>
+		<li test-id='19' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -303,19 +354,66 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='15' class='node and pass' status='pass'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And click on share button</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='16' class='node then pass' status='pass'>
+		<li test-id='20' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
-			<span class="bdd-step-name">Then Verify share button is functional</span>
+			<span class="bdd-step-name">Then Verify share button is displayed</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='21'>
+					<div class='test-heading'>
+						<span class='test-name'>Watch feature</span>
+						<span class='test-time'>Dec 30, 2021 04:51:40 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='22' status='pass'>
+	<div class='category-list'>
+		<span class='category label white-text'>@Smoke</span>
+	</div>
+	<span class='duration right label'>0h 0m 45s+684ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Verify that when a user access Watch menu, then watch landing screen will be displayed</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='23' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When Verify The app is opened</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='24' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When user click the menu on homepage</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='25' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And user click the watch button</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='26' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then Verify that watch landing screen is displayed</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -377,12 +475,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Smoke</span>
 						<span class='category-status right'>
-							<span class='label pass'>3</span>
+							<span class='label pass'>5</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 3</span>
+							<span class='label green accent-4 white-text'>Passed: 5</span>
 							
 							
 						</div>
@@ -398,18 +496,28 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 29, 2021 03:42:00 PM</td>
-										<td class='linked' test-id='2'>Today App Search functionality.User should be able tap on search icon</td>
+										<td>Dec 30, 2021 04:48:55 PM</td>
+										<td class='linked' test-id='2'>Article Landing Page.Open app and access homepage and access one of article detail and assert that nav bar is displayed</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Dec 29, 2021 03:42:23 PM</td>
-										<td class='linked' test-id='8'>Today App Home Feature.Open app and access homepage and assert that Top News section is displayed.</td>
+										<td>Dec 30, 2021 04:49:34 PM</td>
+										<td class='linked' test-id='7'>Today App Search functionality.User should be able tap on search icon</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Dec 29, 2021 03:42:40 PM</td>
-										<td class='linked' test-id='11'>Today App Home Feature.Open app and access homepage and assert that Share button in HomePage is functional</td>
+										<td>Dec 30, 2021 04:50:14 PM</td>
+										<td class='linked' test-id='13'>Today App Home Feature.Open app and access homepage and assert that Top News section is displayed.</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 30, 2021 04:50:51 PM</td>
+										<td class='linked' test-id='16'>Today App Home Feature.Open app and access homepage and assert that Share button in HomePage is functional</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 30, 2021 04:51:40 PM</td>
+										<td class='linked' test-id='22'>Watch feature.Verify that when a user access Watch menu, then watch landing screen will be displayed</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -438,37 +546,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>3</div>
+					<div class='panel-lead'>5</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>11</div>
+					<div class='panel-lead'>17</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 29, 2021 03:42:00 PM</div>
+					<div class='panel-lead'>Dec 30, 2021 04:48:54 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 29, 2021 03:43:18 PM</div>
+			 		<div class='panel-lead'>Dec 30, 2021 04:52:27 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>78,247ms</div>
+					<div class='panel-lead'>212,845ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -516,7 +624,7 @@
 						</tr>
 						<tr>
 							<td>@Smoke</td>
-							<td>3</td>
+							<td>5</td>
 							<td>0</td>
 							<td>0</td>
 						</tr>
@@ -542,7 +650,7 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 2,
+				passParent: 4,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
@@ -550,7 +658,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 3,
+				passChild: 5,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -559,7 +667,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 11,
+				passGrandChild: 17,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
